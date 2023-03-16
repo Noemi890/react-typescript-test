@@ -5,7 +5,7 @@ import './App.css';
 const App: FC = () => {
   return (
     <div className="App">
-      <Person />
+      <Person name="Noemi" age={20} email="noemiemail@gmail.com"/>
     </div>
   );
 }
