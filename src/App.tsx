@@ -1,14 +1,11 @@
 import React, {FC, createContext} from 'react';
 import { Person } from './components/Person';
-import { HairColor } from './components/Person';
+import { HairColor } from './components/Enums';
+import { AppContextInterface } from './components/Interfaces';
 import './App.css';
 
 
-interface AppContextInterface {
-  name: string;
-  age: number;
-  country: string;
-}
+
 
 const AppContext = createContext<AppContextInterface | null>(null)
 
